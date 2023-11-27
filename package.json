@@ -1,0 +1,26 @@
+{
+  "name": "-mern-app-jwt-authentication",
+  "version": "1.0.0",
+  "description": "0:00 - Intro\r   2:58 - Linode Sponsor\r   4:18 - Getting Started\r   6:45 - Dependencies & Express Server\r   9:51 - Scripts & Nodemon\r   10:59 - .env File\r   12:52 - User Routes & Controller Setup\r   18:15 - Postman Workspace Setup\r   21:10 - Async Handler\r   22:37 - Custom Error Middleware\r   30:23 - User Controller Functions\r   33:14 - Connect To User Routes\r   37:20 - MongoDB Database Setup\r   44:50 - User Model\r   48:32 - Register User Endpoint\r   58:50 - Generate JWT & Save Cookie\r   1:06:29 - Auth User Endpoint\r   1:11:33 - Logout & Destroy Cookie\r   1:13:13 - Auth Protect Middleware\r   1:23:30 - Update User Profile Endpoint\r   1:28:11 - Starting The Frontend\r   1:34:15 - Concurrently Setup\r   1:37:43 - React Bootstrap Setup\r   1:40:00 - Header Component\r   1:42:30 - HomeScreen & Hero\r   1:44:54 - React Router Setup\r   1:53:21 - Login & Register Form UIs\r   2:05:47 - Redux Toolkit Setup\r   2:10:37 - Auth Slice\r   2:19:50 - API Slices\r   2:29:17 - Login Functionality\r   2:37:35 - React Toastify Setup\r   2:39:45 - Auth Header Links\r   2:44:01 - Logout Functionality\r   2:48:48 - Loader Component\r   2:51:52 - Register Functionality\r   2:57:39 - Start Profile\r   2:58:21 - PrivateRoute Component\r   3:02:50 - ProfileScreen Component\r   3:06:00 - Update Profile Functionality\r   3:11:15 - Prepare For Production\r   3:16:43 - Create A Linode/Server\r   3:18:32 - SSH Into Server & Provision\r   3:22:44 - Clone Files On To Server\r   3:28:07 - PM2 Setup\r   3:30:45 - NGINX Setup",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
