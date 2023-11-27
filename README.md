@@ -3,7 +3,7 @@
 # -MERN-app-JWT-Authentication
 # Timestamps for Video:
 # 0:00 - Intro
-  2:58 - Linode Sponsor
+  <!-- 2:58 - Linode Sponsor
   4:18 - Getting Started
   6:45 - Dependencies & Express Server
   9:51 - Scripts & Nodemon
@@ -13,7 +13,7 @@
   21:10 - Async Handler
   22:37 - Custom Error Middleware
   30:23 - User Controller Functions
-  33:14 - Connect To User Routes
+  33:14 - Connect To User Routes -->
   37:20 - MongoDB Database Setup
   44:50 - User Model
   48:32 - Register User Endpoint
