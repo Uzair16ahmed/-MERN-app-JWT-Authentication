@@ -13,7 +13,7 @@
   21:10 - Async Handler
   22:37 - Custom Error Middleware
   30:23 - User Controller Functions
-  33:14 - Connect To User Routes -->
+  33:14 - Connect To User Routes 
   37:20 - MongoDB Database Setup
   44:50 - User Model
   48:32 - Register User Endpoint
@@ -27,7 +27,7 @@
   1:37:43 - React Bootstrap Setup
   1:40:00 - Header Component
   1:42:30 - HomeScreen & Hero
-  1:44:54 - React Router Setup
+  1:44:54 - React Router Setup -->
   1:53:21 - Login & Register Form UIs
   2:05:47 - Redux Toolkit Setup
   2:10:37 - Auth Slice
