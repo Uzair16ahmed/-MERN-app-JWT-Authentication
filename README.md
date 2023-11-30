@@ -1,8 +1,8 @@
 
 /*npm i express dotenv mongoose bcryptjs jsonwebtoken cookie-parser*/ 
 # -MERN-app-JWT-Authentication
-# Timestamps for Video:
-# 0:00 - Intro
+Timestamps for Video:
+ 0:00 - Intro
   <!-- 2:58 - Linode Sponsor
   4:18 - Getting Started
   6:45 - Dependencies & Express Server
