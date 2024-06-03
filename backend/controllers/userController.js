@@ -33,14 +33,15 @@ const authUser = asyncHandler (async (req, res) => {
 const registerUser = asyncHandler (async (req, res) => {
     const { name, email, password } = req.body;
 
-    const userExists = await  User.findOne({email});
+    const userExists = await  User.findOne({ email });
 
+    // validation
     if (userExists) {
-        res.status(400);
+        res.status(400); // client error 400
         throw new Error('User already exists');
     }
 
-    const user = await User.create ({
+    const user = await User.create({
         name,
         email,
         password,

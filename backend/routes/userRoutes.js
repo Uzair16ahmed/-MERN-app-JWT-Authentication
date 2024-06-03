@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 // ES modules in the backend by putting type module in the package json when we use the 
-// import syntx and we are importing our own javascript files we have add the extension or it will  
+// import syntx and we are importing our own javascript files we have add the extension (.js) or it will cause
 // an module not found error
 import { 
     authUser, 

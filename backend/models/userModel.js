@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs';
 const userSchema = mongoose.Schema({
     name: {
         type: String,
-        required:true
+        required: true
     },
     email: {
         type: String,
@@ -21,7 +21,8 @@ const userSchema = mongoose.Schema({
    }
 );
 
-userSchema.pre('save',async function(next) {
+userSchema.pre('save', async function(next) {
+    // 'this' refers to current user being saved
     if (!this.isModified('password')) {
         next();
     }
@@ -32,7 +33,8 @@ userSchema.pre('save',async function(next) {
 
 userSchema.methods.matchPassword = async function(enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
-}
+};
+
 const User = mongoose.model('User', userSchema)
 
 export default User;
