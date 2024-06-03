@@ -1,7 +1,9 @@
 import { apiSlice } from "./apiSlice";
 
 const USERS_URL = '/api/users';
-
+// using redux-toolkit
+// mutation are used to modify data on server
+// query is a function that generates request configuration for the mutation
 export const userApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         login: builder.mutation({
