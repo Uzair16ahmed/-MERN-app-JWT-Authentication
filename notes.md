@@ -14,3 +14,6 @@
 # mongoose 
 * everything with mongoose will be async
 * all model methods return promise
+
+# status code
+* The 201 status code is an HTTP response status code that indicates a request was successful and resulted in the creation of a new resource. It's also known as the "Created" status code
